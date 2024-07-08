@@ -16,45 +16,73 @@ h1 {
     margin-bottom: 50px;
   }
 
-.div-nav-bar {
-  display: flex;
+.div-nav-menu {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: start;
+  margin-left: 25px;
 }
 
 .home-link {
   text-decoration: none;
   color: rgb(32, 24, 92);
+  font-size: 20px;
+  font-family: papyrus;
+  font-weight: bold;
 }
 
 .about-us-link {
   text-decoration: none;
   color: rgb(32, 24, 92);
+  font-size: 20px;
+  font-family: papyrus;
+  font-weight: bold;
 }
 
 .makeup-link {
   text-decoration: none;
   color: rgb(32, 24, 92);
+  font-size: 20px;
+  font-family: papyrus;
+  font-weight: bold;
 }
 
 
 .skincare-link {
   text-decoration: none;
   color: rgb(32, 24, 92);
+  font-size: 20px;
+  font-family: papyrus;
+  font-weight: bold;
 }
 
 .haircare-link {
   text-decoration: none;
   color: rgb(32, 24, 92);
+  font-size: 20px;
+  font-family: papyrus;
+  font-weight: bold;
 }
 
 
 .life-link {
   text-decoration: none;
   color: rgb(32, 24, 92);
+  font-size: 20px;
+  font-family: papyrus;
+  font-weight: bold;
 }
 
 .div-menu {
   display: flex;
   flex-direction: column;
+}
+
+.div-search {
+ display: grid;
+ grid-template-columns: 600px 100px;
+ justify-content: center;
+  
 }
 
 .search-bar {
@@ -73,6 +101,7 @@ h1 {
   margin-left: 50px;
   height: 35px;
   margin-right: 0;
+  margin-bottom: 100px;
 
 }
 
@@ -80,7 +109,7 @@ h1 {
 .search-icon {
   vertical-align: top;
   cursor: pointer;
-  margin-left: -5px;
+  margin-left: -2px;
   height: 40px;
   width: 40px;
   border-color: rgb(32, 24, 92);
