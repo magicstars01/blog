@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(241, 224, 227);
+}
+
 h1 {
     color: pink;
     text-align: center;
@@ -12,6 +16,46 @@ h1 {
     margin-bottom: 50px;
   }
 
+.div-nav-bar {
+  display: flex;
+}
+
+.home-link {
+  text-decoration: none;
+  color: rgb(32, 24, 92);
+}
+
+.about-us-link {
+  text-decoration: none;
+  color: rgb(32, 24, 92);
+}
+
+.makeup-link {
+  text-decoration: none;
+  color: rgb(32, 24, 92);
+}
+
+
+.skincare-link {
+  text-decoration: none;
+  color: rgb(32, 24, 92);
+}
+
+.haircare-link {
+  text-decoration: none;
+  color: rgb(32, 24, 92);
+}
+
+
+.life-link {
+  text-decoration: none;
+  color: rgb(32, 24, 92);
+}
+
+.div-menu {
+  display: flex;
+  flex-direction: column;
+}
 
 .search-bar {
   vertical-align: top;
@@ -29,6 +73,7 @@ h1 {
   margin-left: 50px;
   height: 35px;
   margin-right: 0;
+
 }
 
 
@@ -155,6 +200,8 @@ h1 {
     font-family: futura;
     text-align: center;
     margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .sqb-underline {
@@ -186,6 +233,8 @@ h1 {
     font-family: futura;
     text-align: center;
     margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .hcq-underline {
@@ -200,4 +249,42 @@ h1 {
 
   .haircare-quiz-button:active {
     opacity: 0.5;
+  }
+
+  .colourpalette-quiz-button {
+    margin-top: 15px;
+    color: white;
+    background-color: pink;
+    border: none;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 28px;
+    font-family: futura;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .colourpalette-quiz-button:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .colourpalette-quiz-button:active {
+    opacity: 0.5;
+  }
+
+  .cpq-underline {
+    text-decoration: none;
+    color: white;
+  }
+
+  .div-buttons {
+    display: flex;
+    justify-content: space-around;
   }
