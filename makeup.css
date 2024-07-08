@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(241, 224, 227);
+  }
+
+h1 {
+    color: pink;
+    text-align: center;
+    font-family: Papyrus;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
