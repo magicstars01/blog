@@ -10,3 +10,99 @@ h1 {
     margin-bottom: 20px;
     font-size: 50px;
 }
+
+.div-nav-menu {
+  display: flex;
+  justify-content: start;
+  margin-left: 25px;
+}
+
+.home-link {
+  text-decoration: none;
+  color: rgb(32, 24, 92);
+  font-size: 20px;
+  font-family: papyrus;
+  font-weight: bold;
+}
+
+.about-us-link {
+  text-decoration: none;
+  color: rgb(32, 24, 92);
+  font-size: 20px;
+  font-family: papyrus;
+  font-weight: bold;
+}
+
+.makeup-link {
+  text-decoration: none;
+  color: rgb(32, 24, 92);
+  font-size: 20px;
+  font-family: papyrus;
+  font-weight: bold;
+}
+
+
+.skincare-link {
+  text-decoration: none;
+  color: rgb(32, 24, 92);
+  font-size: 20px;
+  font-family: papyrus;
+  font-weight: bold;
+}
+
+.haircare-link {
+  text-decoration: none;
+  color: rgb(32, 24, 92);
+  font-size: 20px;
+  font-family: papyrus;
+  font-weight: bold;
+}
+
+
+.life-link {
+  text-decoration: none;
+  color: rgb(32, 24, 92);
+  font-size: 20px;
+  font-family: papyrus;
+  font-weight: bold;
+}
+
+
+
+.reviews {
+  margin-left: 200px;
+  text-decoration: none;
+  color: rgb(215, 134, 147);
+  font-size: 20px;
+  font-family: monaco;
+  font-weight: bold;
+}
+
+.reviews {
+  font-size: 26px;
+}
+
+p {
+  margin-left: 200px;
+  font-size: 20px;
+  color: rgb(215, 134, 147);
+}
+
+h3 {
+  margin-left: 200px;
+  font-size: 20px;
+  color: rgb(215, 134, 147);
+  font: monaco;
+}
+
+.rb-pic {
+  margin-left: 200px;
+  height: 200px;
+}
+
+
+
+.div-rb {
+  display: flex;
+  justify-content: flex-start;
+}
