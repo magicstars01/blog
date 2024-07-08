@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     
 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
@@ -13,10 +14,11 @@
   </head>
 
   <body>
-<div style="background-color: rgb(241, 224, 227);">   
   
+  <header>
   <h1><i>INSIDER GOSSIP xox</i>
   </h1>
+</header>
 
 <div class="div-homepage-pics">
 <div><img class="etude-homepage" src="pics/etude-2.jpg"></div>
@@ -26,22 +28,38 @@
 <div><img class="nails-homepage" src="pics/nails-1.jpg"></div>
 </div>
 
-
+<div class="div-nav-bar">
+<div class="div-menu">
+  <div><a class="home-link" href="">HOME</a></div>
+  <div><a class="about-us-link" href="#a-about-us">ABOUT US</a></div>
+  <div><a class="makeup-link" href="makeup.html">MAKEUP</a></div>
+  <div><a class="skincare-link" href="">SKINCARE</a></div>
+  <div><a class="haircare-link" href="">HAIRCARE</a></div>
+  <div><a class="life-link" href="">LIFE</a></div>
+</div>
 
 
 <div class="div-search">
   <input class="search-bar" type="textbox" placeholder="Search...">
   <button class="search-icon"> <img src="pics/search-icon.svg"> </button>
 </div>   
+</div>
+
 
 
 <div class="div-about-us">
 
-<div>   <h2 class = "about-us">
-      About Us
-    </h2> </div> 
+<div>   
+  <a id="a-about-us"> 
+    <h2 class = "about-us">
+          About Us
+        </h2> </a>
+</div> 
     
-<div> <p class = "names"> <i>ISHA &#183; DIYA &#183; SAMIRA</i></p> </div>  
+<div> 
+  <p class = "names"> <i>ISHA &#183; DIYA &#183; SAMIRA</i>
+  </p> 
+</div>  
     
 <div>   <p class = "description">
       We grew up researching about self-care and were fascinated by the variety of products on the market and were quick to find that not one product fits all. 
@@ -49,15 +67,28 @@
       We aim to share the inside secrets and reviews, so you don’t have to make the same mistakes we did and can find the correct products that work for you. 
       We are also proud to say that the products that will be reviewed are not part of a paid commission and we also will include our olive-skinned girlies,
        as from our personal experience it’s hard to find products for us.
-    </p> </div> 
+    </p> <hr>
+</div> 
   </div>
 
 
-    <button class = "skincare-quiz-button"><a class="sqb-underline" href="https://www.stylevana.com/en_GB/quiz/skincare-finder" target="_blank">SKINCARE QUIZ</a></button>
+<div class="div-buttons">
+    <div><button class = "skincare-quiz-button">
+      <a class="sqb-underline" href="https://www.stylevana.com/en_GB/quiz/skincare-finder" target="_blank" title="Goes to stylevana">
+        SKINCARE QUIZ</a>
+    </button></div>
     
-    <button class = "haircare-quiz-button"><a class="hcq-underline" href="https://www.healthline.com/health/hair-porosity#high-porosity" target="_blank">HAIRCARE QUIZ</a></button>
-    
-</div>
+   <div> <button class = "haircare-quiz-button">
+      <a class="hcq-underline" href="https://www.healthline.com/health/hair-porosity#high-porosity" target="_blank">
+        HAIRCARE QUIZ</a>
+    </button></div>
+  
+   <div> <button class = "colourpalette-quiz-button">
+      <a class="cpq-underline" href="" target="_blank">
+        COLOUR ANALYSIS QUIZ</a>
+    </button></div>
+  </div>
+
   </body>
 </html>
 
